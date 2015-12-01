@@ -1,0 +1,9 @@
+import assert from 'assert';
+import othmane_yo from '../lib';
+
+
+describe('othmane_yo', function () {
+  it('should have a version number!', function () {
+    assert(typeof othmane_yo.VERSION !== 'undefined', 'The Project should have a VERSION, whatever the actual version.');
+  });
+});
